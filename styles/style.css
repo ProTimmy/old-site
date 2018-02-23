@@ -1,4 +1,5 @@
-/* Animation */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 @keyframes fadeInUp {
   from {
     transform: translate3d(0, 40px, 0); }
@@ -13,16 +14,35 @@
     opacity: 1; } }
 body {
   opacity: 0;
-  /* Fade In and Up animation */
-  /* Modified from https://codepen.io/themechills/pen/dMamgG */
+  /*
+   * Fade In and Up animation
+   * Modified from https://codepen.io/themechills/pen/dMamgG 
+  */
   animation-name: fadeInUp;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-fill-mode: both;
   -webkit-animation-name: fadeInUp;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-fill-mode: both; }
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  overflow-x: hidden;
+  background-color: #fcfcfc;
+  font-family: 'Montserrat', sans-serif; }
 
-header > * {
-  text-align: 'center'; }
+hr {
+  margin: 0px 50px 0px 50px;
+  background-color: black;
+  color: black; }
+
+a:visited {
+  color: #636363; }
+
+header {
+  text-align: center; }
+
+.title {
+  font-size: 2.8rem; }
+
+.title a:visited {
+  color: black; }
 
 /*# sourceMappingURL=style.css.map */
