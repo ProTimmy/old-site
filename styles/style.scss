@@ -61,6 +61,7 @@ a:visited {
 // Header
 header {
     text-align:center;
+    height: 20vh;
 }
 
 .title {
@@ -74,4 +75,23 @@ header {
 // Main
 main {
 
+}
+
+.landing-page {
+    height: 80vh;
+}
+
+.page {
+    // Set height to slightly larger than the total viewheight
+    height: 150vh;
+}
+
+// Footer
+footer {
+    height: 10vh;
+    text-align: center;
+}
+
+footer>p {
+    font-weight: bold;
 }

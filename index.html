@@ -11,25 +11,58 @@
         <link rel="canonical" href="https://gabtimotei.github.io">
         <link type="text/css" rel="stylesheet" href="styles/reset.css">
         <link type="text/css" rel="stylesheet" href="styles/style.css">
+
+        <!-- Smooth scrolling for navbar -->
+        <script src="scripts/smooth-scroll.polyfills.min.js"></script>
+
+        <!-- ScrollMagic to copy Google Chrome site functionality -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     </head>
     <body>
         <header>
-            <h1 class="title"><a href="https://gabtimotei.github.io">gabtimotei</a></h1>
+            <h1 class="title">gabtimotei</h1>
             <div id="header-info">
-                <h3>Computer Science (B.S.) | Mathematics Minor</h3>
-                <h3>University of North Carolina at Chapel Hill</h3>
             </div>
-            <div id="contact">
-                
-            </div>
+            <nav>
+                <div id="left-nav">
+                    <a data-scroll href="#about">About</a>
+                    <a data-scroll href="#portfolio">Portfolio</a>
+                </div>
+                <div id="right-nav">
+                    <a data-scroll href="#blog">Blog</a>
+                    <a data-scroll href="#contact">Contact</a>
+                </div>
+            </nav>
         </header>
         <hr>
         <main>
-            <h1>something</h1>
+            <div class="landing-page">
+                <div id="trigger1"></div>
+                <p>Someting</p>
+            </div>
+
+            <script>
+                
+            </script>
+
+            <div class="page" id="about">
+                <p>Someting</p>
+            </div>
+            <div class="page" id="portfolio">
+                <p>Someting</p>
+            </div>
+            <div class="page" id="blog">
+                <p>Someting</p>
+            </div>
         </main>
         <hr>
         <footer>
             <p>Like this site? Check out the <a href="https://github.com/gabtimotei/gabtimotei.github.io">source</a>!</p>
+
+            <script>
+                var scroll = new SmoothScroll('a[href*="#"]');
+            </script>
         </footer>
     </body>
 </html>
