@@ -4,16 +4,13 @@
         <title>Gabriel Timotei</title>
         <meta name="description" content="Personal Website for Gabriel Timotei">
         <meta name="keywords" content="Gabriel,Timotei,Rodriguez,Gabe,Resume,Work,Experience,Programming,Security,Cyber,Cybersecurity,Coding,Website,Web,About,Contact,Venezuela,gabrieltimotei,LinkedIn,UNC,University,of,North,Carolina,at,Chapel,Hill,Computer,Computers,Science,Bachelors,Florida,Boca,Raton,FL">
-        <meta name="author" content="Gabriel Timotei, 2017">
+        <meta name="author" content="Gabriel Timotei, 2018">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Style -->
         <link rel="canonical" href="https://gabtimotei.github.io">
         <link type="text/css" rel="stylesheet" href="styles/reset.css">
         <link type="text/css" rel="stylesheet" href="styles/style.css">
-
-        <!-- Smooth scrolling for navbar -->
-        <script src="scripts/smooth-scroll.polyfills.min.js"></script>
 
         <!-- ScrollMagic to copy Google Chrome site functionality -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
@@ -26,12 +23,21 @@
             </div>
             <nav>
                 <div id="left-nav">
-                    <a data-scroll href="#about">About</a>
-                    <a data-scroll href="#portfolio">Portfolio</a>
+                    <a href="javascript:document.getElementById('about').scrollIntoView({
+                        block: 'start',
+                        behavior: 'smooth'
+                    });">About</a>
+                    <a href="javascript:document.getElementById('portfolio').scrollIntoView({
+                        block: 'start',
+                        behavior: 'smooth'
+                    });">Portfolio</a>
                 </div>
                 <div id="right-nav">
-                    <a data-scroll href="#blog">Blog</a>
-                    <a data-scroll href="#contact">Contact</a>
+                    <a href="javascript:document.getElementById('blog').scrollIntoView({
+                        block: 'start',
+                        behavior: 'smooth'
+                    });">Blog</a>
+                    <a>Contact</a>
                 </div>
             </nav>
         </header>
@@ -42,9 +48,9 @@
                 <p>Someting</p>
             </div>
 
-            <script>
+            <!--<script>-->
                 
-            </script>
+            <!--</script>-->
 
             <div class="page" id="about">
                 <p>Someting</p>
@@ -59,10 +65,6 @@
         <hr>
         <footer>
             <p>Like this site? Check out the <a href="https://github.com/gabtimotei/gabtimotei.github.io">source</a>!</p>
-
-            <script>
-                var scroll = new SmoothScroll('a[href*="#"]');
-            </script>
         </footer>
     </body>
 </html>
