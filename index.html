@@ -7,64 +7,63 @@
         <meta name="author" content="Gabriel Timotei, 2018">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <!-- Scripts -->
+        <script src="./scripts/jquery-3.3.1.min.js"></script>
+        <script src="./scripts/fullpage.js"></script>
+        <script src="./scripts/script.js"></script>
+
         <!-- Style -->
         <link rel="canonical" href="https://gabtimotei.github.io">
         <link type="text/css" rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="styles/fullpage.css">
         <link type="text/css" rel="stylesheet" href="styles/style.css">
-
-        <!-- ScrollMagic to copy Google Chrome site functionality -->
-        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     </head>
     <body>
-        <header>
-            <h1 class="title">gabtimotei</h1>
-            <div id="header-info">
-            </div>
-            <nav>
-                <div id="left-nav">
-                    <a href="javascript:document.getElementById('about').scrollIntoView({
-                        block: 'start',
-                        behavior: 'smooth'
-                    });">About</a>
-                    <a href="javascript:document.getElementById('portfolio').scrollIntoView({
-                        block: 'start',
-                        behavior: 'smooth'
-                    });">Portfolio</a>
-                </div>
-                <div id="right-nav">
-                    <a href="javascript:document.getElementById('blog').scrollIntoView({
-                        block: 'start',
-                        behavior: 'smooth'
-                    });">Blog</a>
-                    <a>Contact</a>
-                </div>
-            </nav>
-        </header>
-        <hr>
         <main>
-            <div class="landing-page">
-                <div id="trigger1"></div>
-                <p>Someting</p>
+            <div class="section active" id="landing">
+                <h1>GABRIEL TIMOTEI</h1>
+                <h2>Tarheel. Developer.</h2>
+                <div id="scrollDown">
+                    <p>SCROLL DOWN</p>
+                    <i class="fas fa-angle-down"></i>
+                </div>
             </div>
-
-            <!--<script>-->
-                
-            <!--</script>-->
-
-            <div class="page" id="about">
-                <p>Someting</p>
+            <div class="section" id="about">
+                <div id="profile_container"><img src="./assets/profile.jpg" id="profile_pic"></div>
+                <div id="about_container">
+                    <p>I'm a student at the University of North Carolina at Chapel Hill. I was born in Venezuela, and moved to Florida when I was 10. I learned to code through my friends in high school, but I've been around computers my entire life. I graduate next May, and I'm looking for full time positions!</p>
+                    <p id="contact_button">Contact me.</p>
+                </div>
+                <div id="contact">
+                </div>
             </div>
-            <div class="page" id="portfolio">
-                <p>Someting</p>
+            <div class="section" id="portfolio">
+                <h1>Some things I've worked on.</h1>
+                <div id="repo_container"></div>
+                <h2 id="github_link">Find more projects <a href="https://www.github.com/gabtimotei">here</a>.</h2>
             </div>
-            <div class="page" id="blog">
-                <p>Someting</p>
+            <div class="section" id="blog">
+                <h1>Some things I've written.</h1>
+                <div id="story_container">
+                    <div class="story">
+                        <h2>About Languages.</h2>
+                        <p>09/28/2018</p>
+                    </div>
+                    <div class="story">
+                        <h2>About Football.</h2>
+                        <p>09/28/2018</p>
+                    </div>
+                </div>
             </div>
         </main>
-        <hr>
         <footer>
             <p>Like this site? Check out the <a href="https://github.com/gabtimotei/gabtimotei.github.io">source</a>!</p>
         </footer>
+        <script type="text/javascript">
+            var myFullpage = new fullpage('main', {
+                sectionsColor: ['#3498db', '#e74c3c', '#2ecc71', '#2c3e50'],
+            })
+        </script>
     </body>
 </html>
