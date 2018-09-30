@@ -24,4 +24,12 @@ $(document).ready(function () {
       window.alert('Failed to connect to Github API. Please reload the page!')
     }
   })
+
+  $('#back_button').click(function () {
+    $('#contact').toggle('slide', {direction: 'right'})
+  })
+
+  $('#contact_button').click(function () {
+    $('#contact').toggle('slide', {direction: 'right'})
+  })
 })

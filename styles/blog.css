@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+html {
+  background-color: #2c3e50;
+  color: white; }
+
+#title_container {
+  position: fixed; }
+  #title_container i {
+    position: absolute;
+    font-size: 60px; }
+  #title_container h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; }
+  #title_container hr {
+    margin: 20px 50px; }
+
+p {
+  font-family: 'Lato', sans-serif; }
+
+/*# sourceMappingURL=blog.css.map */

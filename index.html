@@ -7,8 +7,14 @@
         <meta name="author" content="Gabriel Timotei, 2018">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <!-- Icons -->
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+
         <!-- Scripts -->
         <script src="./scripts/jquery-3.3.1.min.js"></script>
+        <script src="./scripts/jquery-ui.min.js"></script>
         <script src="./scripts/fullpage.js"></script>
         <script src="./scripts/script.js"></script>
 
@@ -23,7 +29,7 @@
         <main>
             <div class="section active" id="landing">
                 <h1>GABRIEL TIMOTEI</h1>
-                <h2>Tarheel. Developer.</h2>
+                <h2>Looking for the simple things.</h2>
                 <div id="scrollDown">
                     <p>SCROLL DOWN</p>
                     <i class="fas fa-angle-down"></i>
@@ -32,10 +38,16 @@
             <div class="section" id="about">
                 <div id="profile_container"><img src="./assets/profile.jpg" id="profile_pic"></div>
                 <div id="about_container">
-                    <p>I'm a student at the University of North Carolina at Chapel Hill. I was born in Venezuela, and moved to Florida when I was 10. I learned to code through my friends in high school, but I've been around computers my entire life. I graduate next May, and I'm looking for full time positions!</p>
+                    <p>I'm a Computer Science student at the University of North Carolina at Chapel Hill. I was born in Venezuela, and moved to Florida when I was 10. I learned to code through my friends in high school, but I've been around computers my entire life. I graduate next May, and I'm looking for full time positions!</p>
                     <p id="contact_button">Contact me.</p>
                 </div>
                 <div id="contact">
+                    <div id="contact_container">
+                        <i class="fas fa-arrow-left" id="back_button"></i>
+                        <a href="https://www.github.com/gabtimotei" title="Github"><i class="fab fa-github"></i></a>
+                        <a href="https://www.github.com/gabtimotei" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="./assets/Resume.pdf" title="Resume" download="GabrielTimotei_Resume"><i class="fas fa-file"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="section" id="portfolio">
@@ -46,14 +58,22 @@
             <div class="section" id="blog">
                 <h1>Some things I've written.</h1>
                 <div id="story_container">
-                    <div class="story">
+                    <!-- <a class="story" href="./blog/about_blog.html"> -->
+                    <a class="story">
+                        <h2>About This Blog.</h2>
+                        <h3>In Progress.</h3>
+                        <h3>09/29/2018</h3>
+                    </a>
+                    <a class="story">
                         <h2>About Languages.</h2>
-                        <p>09/28/2018</p>
-                    </div>
-                    <div class="story">
+                        <h3>In Progress.</h3>
+                        <h3>09/29/2018</h3>
+                    </a>
+                    <a class="story">
                         <h2>About Football.</h2>
-                        <p>09/28/2018</p>
-                    </div>
+                        <h3>In Progress.</h3>
+                        <h3>09/29/2018</h3>
+                    </a>
                 </div>
             </div>
         </main>
