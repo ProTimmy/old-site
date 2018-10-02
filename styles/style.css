@@ -91,7 +91,8 @@ body {
         justify-content: space-evenly;
         text-align: center; }
         .section#about #contact #contact_container i {
-          font-size: 50px; }
+          font-size: 50px;
+          cursor: pointer; }
   .section#portfolio > * {
     display: flex;
     flex-direction: column;
