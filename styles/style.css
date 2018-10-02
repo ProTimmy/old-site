@@ -169,6 +169,8 @@ body {
       .section#blog #story_container .story h2 {
         font-weight: 700;
         font-size: 30px; }
+      .section#blog #story_container .story h3 {
+        font-style: italic; }
     @media (max-device-height: 800px) {
       .section#blog #story_container .mobile {
         display: none; } }
