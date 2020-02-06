@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Yellowtail&display=swap");
 @keyframes float {
   0% {
     margin-bottom: 10px; }
@@ -71,9 +72,14 @@ body {
       @media (max-device-height: 600px) {
         .section#about #about_container {
           font-size: 20px; } }
+      .section#about #about_container #about_title {
+        margin-bottom: 20px;
+        font-size: 60px;
+        font-family: 'Yellowtail', cursive; }
       .section#about #about_container #contact_button {
         margin-top: 20px;
         font-weight: 700;
+        text-decoration: underline;
         cursor: pointer; }
     .section#about #contact {
       display: none;
