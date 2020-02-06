@@ -1,3 +1,5 @@
 # Welcome to my personal site!
 
-**Currently undergoing a complete overhaul, bear with me for a moment**...
+**Decided to keep the personal site simple, with no fancy frameworks... Just HTML, CSS, and vanilla JavaScript!**
+
+Credit to fullPage.js for the JavaScript library that's behind the scrolling function of the website
